@@ -6,6 +6,8 @@ Feel free to use languages, libraries, frameworks you are most familiar with. Cr
 Create a basic web app that allows the user to:
 1. login via [metamask chrome extension](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en) or [wallet connect](https://walletconnect.com/)
 2. setup a multi-sig wallet with an arbitrary number of approvers and a confirmation threshold ([gnosis](https://help.gnosis-safe.io/en/articles/3876461-create-a-safe))
+3. show newly created safe address, with approver addresses listed, & current eth balance
+4. for testing of multi-sig wallet creation, get some fake eth from the [faucet](https://faucets.chain.link/rinkeby), switch your metamask to the rinkeby testnet
 
 ## resources
 - [ethers.js - ethereum library](https://docs.ethers.io/v5/)
