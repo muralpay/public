@@ -1,5 +1,6 @@
 # challenge
-Feel free to use languages, libraries, frameworks you are most familiar with.
+## welcome
+Feel free to use languages, libraries, frameworks you are most familiar with. Create a private repo, regularly push your changes as you progres through the challenge.
 
 ## step 1
 Create a basic web app that allows the user to:
