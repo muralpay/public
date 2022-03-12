@@ -11,3 +11,5 @@ Create a basic web app that allows the user to:
 - [ethers.js - ethereum library](https://docs.ethers.io/v5/)
 - [bnc-onboard - wallet connections](https://www.npmjs.com/package/bnc-onboard)
 - [gnosis sdk - multi-sig wallets](https://github.com/gnosis/safe-apps-sdk)
+- [gnosis dao - discord help/resources](https://discord.com/invite/M39dTHQ)
+- [safe community - discord help/resources](https://discord.gg/junactJf)
