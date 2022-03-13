@@ -3,10 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import App from './App/App';
 import reportWebVitals from './reportWebVitals';
+import { ChainId, Config, DAppProvider } from '@usedapp/core';
+
+const config: Config = {
+  supportedChains: [ChainId.Mainnet, ChainId.Rinkeby ]
+}
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <DAppProvider config={config}>
+      <App />
+    </DAppProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,26 +1,41 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.scss';
+import { useEthers, useEtherBalance } from '@usedapp/core';
+import { formatEther } from '@ethersproject/units'
 
 function App() {
+  const {account, activateBrowserWallet, deactivate} = useEthers()
+  const etherBalance = useEtherBalance(account)
+
+  const isConnected = account != undefined
+
+  const connectDisconnect = ()=> {
+    if(isConnected){
+      deactivate()
+    }
+    else{
+      activateBrowserWallet() 
+    }
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
+      <header className={`App-header ${isConnected ? "connected" : ""}`}>
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className="account-info">
+          <div className='balance'>
+          {etherBalance && <p>Balance: {formatEther(etherBalance)}</p>}
+          </div>
+          <div className="connection" onClick={connectDisconnect}>
+            { isConnected ? "Disonnect" : "Connect"}
+          </div>
+        </div>
       </header>
     </div>
   );
+
+
 }
 
 export default App;
