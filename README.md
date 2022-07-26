@@ -11,7 +11,7 @@ Create a basic web app that allows a user to login via metamask, send fake Ether
 3. Create simple UI with a login button (opens up metamask login modal), displays user's current balance on the rinkeby testnet, allows user to send funds to another Ethereum address, displays user's previous transaction hashes in a table (linking each transaction hash to its respective etherscan link).
 
 ## part 1.5 - handling frontend state & async calls (eth main net)
-On the Ethereum mainnet, load the top 10 ENS leaderboard addresses & names into a table using the [web3 library](https://web3js.readthedocs.io/en/v1.2.0/web3-eth-ens.html) (or ethers, whichever you prefer), while structuring your frontend components & async calls to update as soon as you retrieve ens names & addresses, asynchronously.  Load the latest 10 transactions for each leaderboard address via the [etherscan api](https://etherscan.io/apis).
+On the Ethereum mainnet, load the [top 10 ENS leaderboard](https://ethleaderboard.xyz/) addresses & names into a table using the [web3 library](https://web3js.readthedocs.io/en/v1.2.0/web3-eth-ens.html) (or ethers, whichever you prefer), while structuring your frontend components & async calls to update as soon as you retrieve ens names & addresses, asynchronously.  Load the latest 10 transactions for each leaderboard address via the [etherscan api](https://etherscan.io/apis).
 
 ## part 2 - followup challenge: multi-sig creation
 1. Allow user to setup a gnosis multi-sig wallet with an arbitrary number of approvers and a confirmation threshold ([gnosis](https://help.gnosis-safe.io/en/articles/3876461-create-a-safe)).
