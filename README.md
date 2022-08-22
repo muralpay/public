@@ -13,6 +13,9 @@ Create a basic web app that allows a user to login via metamask, send fake Ether
 3. Create simple UI showing approvers, allowing user to edit the nickname for different addresses, changing approvers, as well as changing the confirmation threshold.
 4. For testing of multi-sig wallet creation, get some fake eth from the [faucet](https://faucets.chain.link/rinkeby), switch your metamask to the rinkeby testnet, test by initiating transactions,
 
+## Share your challenge with us
+We'd love to hear from you ~ send us your coding challenge at: hello at mural dot xyz.  If you'd like to apply for a position with us, checkout [jobs.mural.xyz](http://jobs.mural.xyz/).
+
 ## resources
 - [ethers.js - ethereum library](https://docs.ethers.io/v5/)
 - [web3.js - ethereum library](https://web3js.readthedocs.io/en/v1.7.3/glossary.html)
