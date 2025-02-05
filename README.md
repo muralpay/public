@@ -4,7 +4,7 @@ Using the Mural Pay API Sandbox Environment, create a single-page application th
 
 While Typescript and React are ideal, feel free to use the languages, libraries, and frameworks you are most familiar with.
 
-For Sandbox access, please reach out to [support@muralpay.com](mailto:support@muralpay.com) with your resume and email address that you would like access for.
+For Sandbox access, please reach out to [boyce@muralpay.com](mailto:boyce@muralpay.com) with your resume and email address that you would like access for.
 
 ### Part 1: Customer & Account Creation
 
