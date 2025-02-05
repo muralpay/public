@@ -6,6 +6,8 @@ While Typescript and React are ideal, feel free to use the languages, libraries,
 
 For Sandbox access, please reach out to [boyce@muralpay.com](mailto:boyce@muralpay.com) with your resume and email address that you would like access for.
 
+Once finished, please submit your challenge [here](https://docs.google.com/forms/d/e/1FAIpQLSfzDopDRb-HoMtTNUZCcydzjR4q_HeH9D7d4ffwEFoJiSAPIg/viewform).
+
 ### Part 1: Customer & Account Creation
 
 - Allow a user (”Customer”) to create an account
